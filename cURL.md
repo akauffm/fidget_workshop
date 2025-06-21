@@ -1,7 +1,13 @@
-# Call a Gemini large language model from the command line with cURL
+# cURL
+
+* basic cURL tutorial
+* [A list of crazy cURL-optimized sites](https://github.com/chubin/awesome-console-services)
+
+#### Get an API KEY at [AI Studio](https://aistudio.google.com)
+
+#### Call a Gemini large language model from the command line with cURL
 
   * **Make sure to replace *YOUR_API_KEY* with your actual API key**  
-  (You can generate an API key in [Google AI Studio](aistudio.google.com))
   * Paste the command below into a text editor and change the  
     value after "text" into whatever prompt you like.
   * You should get a response in a similar format.
