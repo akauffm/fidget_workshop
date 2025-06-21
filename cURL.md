@@ -26,7 +26,7 @@ curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-l
 #### Generate an image according to the prompt and save it in the current folder as "gemini.png":
 
 ```
-curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-preview-image-generation:generateContent?key=AIzaSyCHQlOo659skaI-BqFc1AtEPMqbLI7PVhU" \
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-preview-image-generation:generateContent?key=YOUR_API_KEY" \
   -H 'Content-Type: application/json' \
   -X POST \
   -d '{
