@@ -8,4 +8,5 @@
  6. Try running ```curl http://localhost:11434/api/generate -d '{"model": "gemma3:4b", "prompt":"Why is the sky blue? Answer in one sentence.", "stream":false}'```
  7. If you want Ollama to be accessible on your network, on a Mac run ```launchctl setenv OLLAMA_HOST "0.0.0.0"``` from the command line and restart the Ollama application. For other operating systems, see:
 (https://aident.ai/blog/how-to-expose-ollama-service-api-to-network)
- 8. Call it on my machine (replace **MY_IP** with whatever my IP happens to be): ```curl http://MY_IP:11434/api/generate -d '{ "model": "llama3.2", "prompt":"Who should attend Fidget Camp? Answer in one sentence.", "stream":false }'```
+ 8. Call it on my machine (replace **MY_IP** with whatever my IP happens to be): ```curl http://MY_IP:11434/api/generate -d '{ "model": "llama3.2:latest", "prompt":"Who should attend Fidget Camp? Answer in one sentence.", "stream":false }'```
+ 9. If you want to interact with Ollama programatically, it has a great Python library ```pip install ollama```
